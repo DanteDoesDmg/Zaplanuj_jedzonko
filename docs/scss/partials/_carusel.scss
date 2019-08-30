@@ -1,5 +1,7 @@
 @import "scss_Variables";
-.wrap, #slider, .slide_content{
+.wrap,
+#slider,
+.slide_content {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,10 +10,10 @@
   font-family: $fontOpenSans;
   overflow-x: hidden;
 }
-.wrap{
+.wrap {
   position: relative;
 }
-.slide{
+.slide {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,59 +21,53 @@
   margin: 0 auto;
   height: 600px;
   width: 85%;
-
 }
-.text1{
+.text1 {
   width: 40%;
   position: absolute;
   margin: 20px 20px;
-  //transform: rotate(-90deg);
+  top:10%;
+  right: 7%;
 }
-.text h2{
+.text h2 {
   padding-bottom: 30px;
   color: $color_Header_TextColumns;
   font-size: 30px;
   font-weight: 500;
 }
-.text p{
+.text p {
   color: $color_Header_TextColumns;
   font-size: 20px;
 }
-.slide1{
+.slide1 {
   background-image: url("../images/picture1.jpg");
-  //transform: rotate(90deg);
-
 }
-.slide2{
+.slide2 {
   background-image: url("https://d21ill4q5f8m3f.cloudfront.net/wp-content/uploads/sites/2/2015/02/10104641/1500-20140505_FINE_DINE_SOCIAL_EDMP-5-1300x600.gif");
-  //transform: rotate(90deg);
 }
-.slide3{
+.slide3 {
   background-image: url("https://www.yauatcha.com/city/wp-content/uploads/sites/31/2018/05/Yauatcha-IceCreamMacaron-May18-314-DB_2-1300x600.jpg");
-  //transform: rotate(90deg);
 }
-.slide4{
+.slide4 {
   background-image: url("https://www.yauatcha.com/soho/wp-content/uploads/sites/11/2017/06/LAB-Photo-2204_web-1300x600.jpg");
-  //transform: rotate(90deg);
 }
-#arrow_left, #arrow_right{
+#arrow_left,
+#arrow_right {
   cursor: pointer;
   position: absolute;
   top: 45%;
-  color: rgba(74 ,74 ,73 ,0.5);
+  color: rgba(74, 74, 73, 0.5);
   font-size: 40px;
 }
-#arrow_right{
+#arrow_right {
   right: 60px;
-  &:hover{
+  &:hover {
     color: $color_ButonsOrange_Highlights_Screenheaders;
   }
 }
-#arrow_left{
+#arrow_left {
   left: 60px;
-  &:hover{
+  &:hover {
     color: $color_ButonsOrange_Highlights_Screenheaders;
   }
 }
-
-
