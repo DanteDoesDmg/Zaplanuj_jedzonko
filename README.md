@@ -1,40 +1,21 @@
-# ScrumLab
-This is a repository dedicated to ScrumLab front-end project.
+# Zaplanuj jedzonko
 
-## How to start
-To start development follow this instruction:
+Demo link: https://dantedoesdmg.github.io/Zaplanuj_jedzonko/
 
-* `clone` this repo
-* `npm install` all necessary npm packages
+## Functionality:  
 
+1. App for creating and managing your meal plan
+2. Login through local storage
+3. Sample landing page for the food app
 
-## Gulp usage
-Avaliable commends for you to type in console:
+## Technology used:
 
-`gulp` or `gulp serve`  - this will run gulp in browserSync mode, that means gulp will start serwer on your `localhost` and refresh it for you everytime you change `scss`, `js` or `html` file. Using this command will do all the work for you :)
+1. ES5
+2. Gulp
+3. SASS/SCSS
+4. Local Storage
 
-`gulp watch` - runs gulp in watch mode, that will compiles your `main.scss` into `css/main.css`
+## Future plans:
 
-`gulp sass` - compiles sass into CSS & auto-inject into browsers
-
-
-## Folder Structure
-```
-| - development/
-	| - css/      
-	| - fonts/
-	| - images/  
-	| - js/
-	| - scss/
-	| - app.html  
-	| - index.html  
-	| - recipes.html    
-	| - schedules.html
-| - distribution/
-| - package.json
-| - gulpfile.js
-```
-
-***where:***
-`distribution` - is used to contain optimized files for the production site.
-`development`  - is used to contain source code.
+1. Improving existing functionality
+2. Adding shopping list functionality
