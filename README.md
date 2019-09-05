@@ -2,6 +2,8 @@
 
 Demo link: https://dantedoesdmg.github.io/Zaplanuj_jedzonko/
 
+Click 'Zaplanuj posiłki' in header to go to the App
+
 ## Functionality:  
 
 1. App for creating and managing your meal plan
