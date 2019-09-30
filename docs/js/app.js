@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var note_info_text = document.querySelector('.note_info_text');
   var recipes_lenght = localStorage.getItem("recipe_leng");
   var widget_recipe_num = document.querySelector('.recipe_leng');
-  if(recipes_lenght == null){
+  if(recipes_lenght == null || recipes_lenght === '0'){
     note_info_text.innerHTML = "Nie masz przepisów!";
   }else if(recipes_lenght === '1') {
     widget_recipe_num.innerHTML = '1 przepis';
